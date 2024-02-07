@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Boootstap link style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Main home page</title>
+</head>
+<body>
+    <Section class="Main-home">
+
+      <nav class="navbar navbar-expand-lg">
+         <div class="container-fluid">
+           <a class="logo" href="#">The Coffee House</a>
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+               <li class="nav-item">
+                 <a class="nav-link" aria-current="page" href="Home.html">Home</a>
+               </li>
+               
+               <li class="nav-item">
+                  <a class="nav-link" href="about-us.html">About us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact us</a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link" href="coffee.php">Products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="myBtn">login</a>
+                </li>
+             </ul>
+            
+           </div>
+         </div>
+       </nav>
+
+       <div id="myModal" class="modal">
+
+       
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <form id="loginForm"  method="post">
+            Email: <input type="text" name="email"><br>
+            Password: <input type="password" name="password"><br>
+            <input type="submit" value="Login">
+          </form>
+          <a href="#" id="signupLink">Signup?</a>
+          <form id="signupForm" method="post" style="display: none;">
+            Name: <input type="text" name="name"><br>
+            Email: <input type="text" name="email"><br>
+            Password: <input type="password" name="password"><br>
+            <input type="submit" value="Signup">
+          </form>
+        </div>
+      
+      </div>
+
+       <div class="home-vision">
+         <h1>The brewing</h1>
+         <p>The process id simple and efficient when brewing</p>
+         <button type="button" onclick="theFunction()" class="btn btn-light">Shop</button>
+      </div>
+
+      
+      <div class="container">
+         <div class="box left">
+           <p>Explore the history of the cafe form the humble beginings to this date</p>
+           <i class="fa-solid fa-arrow-right"></i>
+         </div>
+         <div class="box right">
+           <p>Discover our unique coffee with the taste od asia</p>
+           <i class="fa-solid fa-arrow-right"></i>
+         </div>
+       </div>
+       
+    </Section>
+
+
+    <section class="home-coffee">
+      <div class="home-cofee-content">
+         <h1>The Most popular coffees</h1>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, optio placeat quaerat aliquid impedit unde numquam eum excepturi odit officiis, rem quo, id ab iure. Provident excepturi pariatur ab quos!</p>
+      </div>
+
+      <div class="coffee-making">
+
+          <div class="coffee-making-content ">
+            <img src="Images/pexels-chevanon-photography-302902.jpg" alt="">
+            <div class="coffee-making-text">
+            <h2>The brewing</h2>
+            <p>This is the best process as you brew it you will undrstand the essenxe of it</p>
+         </div>
+
+          </div>
+
+          <div class="coffee-making-content ">
+            <img src="Images/pexels-chevanon-photography-302902.jpg" alt="">
+            <div class="coffee-making-text">
+            <h2>The brewing</h2>
+            <p>This is the best process as you brew it you will undrstand the essenxe of it</p>
+         </div>
+
+          </div>
+
+          <div class="coffee-making-content ">
+            <img src="Images/pexels-chevanon-photography-302902.jpg" alt="">
+            <div class="coffee-making-text">
+            <h2>The brewing</h2>
+            <p>This is the best process as you brew it you will undrstand the essenxe of it</p>
+         </div>
+
+          </div>
+      </div>
+      
+    </section>
+
+
+<section class="shop-collection">
+  <div class="collections-content text-center pt-3 ">
+    <h1>Our Collections</h1>
+    <p>View all our collections</p>
+  </div>
+
+  <div class="products mt-5 col justify-content-center ">
+    <div class="products-content">
+      <img src="Images/pexels-viktoria-alipatova-2074130.jpg"  alt="">
+      <div class="product-texts">
+        <h3>Latte</h3>
+        <p>Rs.254</p>
+      </div>
+    </div>
+   
+      <div class="products-content ">
+      <img src="Images/pexels-viktoria-alipatova-2074130.jpg"  alt="">
+      <div class="product-texts">
+        <h3>Latte</h3>
+        <p>Rs.254</p>
+      </div>
+    </div>
+    <div class="products-content">
+      <img src="Images/pexels-viktoria-alipatova-2074130.jpg"  alt="">
+      <div class="product-texts">
+        <h3>Latte</h3>
+        <p>Rs.254</p>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<section class="main-footer">
+
+<footer class="footer">
+  <div class="footer__addr">
+    <h1 class="footer__logo">The COffee House</h1>
+        
+    <h2>Contact</h2>
+    
+    <address>
+      5534 Somewhere In. The World 22193-10212<br>
+          
+      <a class="footer__btn" href="mailto:example@gmail.com">Email Us</a>
+    </address>
+  </div>
+  
+  <ul class="footer__nav">
+    <li class="nav__item">
+      <h2 class="nav__title">Media</h2>
+
+      <ul class="nav__ul">
+        <li>
+          <a href="#">Online</a>
+        </li>
+
+        
+      </ul>
+    </li>
+    
+    <li class="nav__item nav__item--extra">
+      <h2 class="nav__title">Brands</h2>
+      
+      <ul class="nav__ul nav__ul--extra">
+        <li>
+          <a href="#">coffee bean</a>
+        </li>
+        
+        <li>
+          <a href="#">Arabica coffee</a>
+        </li>
+        
+        <li>
+          <a href="#">Digital Signage</a>
+        </li>
+        
+      </ul>
+    </li>
+    
+    <li class="nav__item">
+      <h2 class="nav__title">Legal</h2>
+      
+      <ul class="nav__ul">
+        <li>
+          <a href="#">Privacy Policy</a>
+        </li>
+        
+        <li>
+          <a href="#">Terms of Use</a>
+        </li>
+        
+        <li>
+          <a href="#">Sitemap</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  
+  <div class="legal">
+    <p>&copy; 2019 Something. All rights reserved.</p>
+    
+    <div class="legal__links">
+      <span>Made with <span class="heart">♥</span> remotely from Anywhere</span>
+    </div>
+  </div>
+</footer>
+</section>
+
+
+ 
+
+ 
+
+
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  
+ <script>
+  function theFunction() {
+    window.location.href = "coffee.php";
+  }
+</script>
+ </script>
+
+ <script src="coffee.js"></script>
+</body>
+</html>
